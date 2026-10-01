@@ -695,4 +695,4 @@ Stated plainly, because they are design boundaries rather than oversights:
 
 ## License
 
-MIT
+[MIT](LICENSE) © 2026 Abdullah Mustafa
