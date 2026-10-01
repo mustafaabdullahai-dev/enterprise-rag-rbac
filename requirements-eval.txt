@@ -1,0 +1,12 @@
+# Optional evaluation stack (Ragas).
+#
+# Ragas scores answers with an *LLM judge*, so it requires an OpenAI-compatible
+# endpoint (Groq / OpenAI / Together / vLLM / Ollama). Without one, the project
+# falls back to the deterministic offline metrics in
+# `enterprise_rag.evaluation.metrics` — see docs/evaluation.md.
+-r requirements.txt
+
+ragas>=0.2.6
+datasets>=3.0
+pandas>=2.2
+langchain-openai>=0.2.0

@@ -1,0 +1,33 @@
+# Enterprise RAG (RBAC + Guardrails) — runtime dependencies.
+# Mirrors the [project.dependencies] block in pyproject.toml.
+
+# ---- Core framework ----
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+
+# ---- LangChain / LangGraph orchestration ----
+langchain-core>=0.3.29
+langchain-text-splitters>=0.3.4
+langchain-chroma>=0.2.0
+langgraph>=0.2.60
+
+# ---- Vector store ----
+chromadb>=0.5.20
+
+# ---- Schemas / settings ----
+pydantic>=2.9
+pydantic-settings>=2.5
+
+# ---- Document ingestion (PDF, DOCX, CSV, Markdown) ----
+pypdf>=5.0
+python-docx>=1.1
+openpyxl>=3.1
+
+# ---- HTTP (OpenAI-compatible LLM / embedding endpoints) ----
+httpx>=0.27
+
+# ---- Utilities ----
+python-dotenv>=1.0
+numpy>=1.26
+rich>=13.7

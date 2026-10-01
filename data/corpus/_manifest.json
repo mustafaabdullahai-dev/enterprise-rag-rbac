@@ -1,0 +1,103 @@
+{
+  "documents": {
+    "hr/salary_bands_fy2026.csv": {
+      "classification": "restricted",
+      "roles": [
+        "hr_business_partner",
+        "executive",
+        "compliance_officer"
+      ],
+      "departments": [
+        "hr",
+        "executive"
+      ],
+      "reason": "Compensation bands: HR, leadership and compliance only."
+    },
+    "hr/employee_directory.csv": {
+      "classification": "restricted",
+      "roles": [
+        "hr_business_partner",
+        "compliance_officer"
+      ],
+      "departments": [
+        "hr"
+      ],
+      "reason": "Employee personal data register (GDPR Art. 30 record)."
+    },
+    "hr/performance_review_summary.csv": {
+      "classification": "restricted",
+      "roles": [
+        "hr_business_partner",
+        "executive"
+      ],
+      "departments": [
+        "hr"
+      ],
+      "reason": "Performance and promotion calibration data."
+    },
+    "hr/remote_work_policy_2026.docx": {
+      "classification": "internal",
+      "roles": [
+        "*"
+      ],
+      "departments": [],
+      "reason": "Published to all staff; internal because of the security requirements."
+    },
+    "finance/*.csv": {
+      "classification": "confidential",
+      "roles": [
+        "finance_analyst",
+        "executive"
+      ],
+      "departments": [
+        "finance",
+        "executive"
+      ],
+      "reason": "Budget and vendor commercial data."
+    },
+    "finance/cost_centers_fy2026.xlsx": {
+      "classification": "confidential",
+      "roles": [
+        "finance_analyst",
+        "executive"
+      ],
+      "departments": [
+        "finance",
+        "executive"
+      ],
+      "reason": "Cost centre budgets and approvals."
+    },
+    "engineering/security_architecture_review.md": {
+      "classification": "confidential",
+      "roles": [
+        "manager",
+        "executive",
+        "compliance_officer"
+      ],
+      "departments": [
+        "engineering",
+        "security"
+      ],
+      "reason": "Security architecture detail: engineering leads, security, compliance."
+    },
+    "legal/pending_litigation_2026.md": {
+      "classification": "restricted",
+      "roles": [
+        "legal_counsel",
+        "executive",
+        "compliance_officer"
+      ],
+      "departments": [
+        "legal",
+        "executive"
+      ],
+      "reason": "Privileged litigation material."
+    }
+  },
+  "default": {
+    "classification": "internal",
+    "roles": [],
+    "departments": [],
+    "reason": "Unclassified file: internal, owning department only."
+  }
+}

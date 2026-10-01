@@ -1,0 +1,10 @@
+# Development / test dependencies.
+-r requirements.txt
+
+pytest>=8.3
+pytest-asyncio>=0.24
+ruff>=0.7
+mypy>=1.13
+
+# Optional: Ragas evaluation harness (needs an LLM judge endpoint to score).
+# Install with:  pip install -r requirements-eval.txt

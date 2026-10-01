@@ -1,0 +1,29 @@
+# Enterprise RAG (RBAC + Guardrails) — local deployment.
+#
+#   cp .env.example .env        # set SECRET_KEY (and API keys if you use a hosted LLM)
+#   docker compose up --build   # http://localhost:8000
+
+services:
+  api:
+    build: .
+    image: enterprise-rag-rbac
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      APP_ENV: production
+      DATA_DIR: /app/data
+      SECRET_KEY: ${SECRET_KEY:-dev-only-insecure-key-change-me}
+      LLM_BACKEND: ${LLM_BACKEND:-extractive}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      EMBEDDING_BACKEND: ${EMBEDDING_BACKEND:-hash}
+    volumes:
+      - ./data:/app/data         # keeps the index, catalog and audit trail
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8000/api/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 40s

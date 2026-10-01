@@ -1,0 +1,34 @@
+[
+  {
+    "service": "checkout-api",
+    "owner": "payments-team",
+    "tier": "1",
+    "slo_availability": "99.95 percent",
+    "on_call_rotation": "payments-primary",
+    "runbook": "runbooks/checkout.md"
+  },
+  {
+    "service": "identity-gateway",
+    "owner": "platform-team",
+    "tier": "1",
+    "slo_availability": "99.99 percent",
+    "on_call_rotation": "platform-primary",
+    "runbook": "runbooks/identity.md"
+  },
+  {
+    "service": "reporting-warehouse",
+    "owner": "data-team",
+    "tier": "2",
+    "slo_availability": "99.5 percent",
+    "on_call_rotation": "data-business-hours",
+    "runbook": "runbooks/warehouse.md"
+  },
+  {
+    "service": "notification-worker",
+    "owner": "platform-team",
+    "tier": "3",
+    "slo_availability": "99.0 percent",
+    "on_call_rotation": "platform-business-hours",
+    "runbook": "runbooks/notifications.md"
+  }
+]

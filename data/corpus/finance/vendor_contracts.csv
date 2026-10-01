@@ -1,0 +1,7 @@
+vendor,service,annual_value_usd,renewal_date,auto_renew,dpa_signed,owner
+Contoso Logistics,Shipment tracking API,84000,2026-11-30,Yes,Yes,Engineering
+Fabrikam Cloud,Object storage,312000,2027-01-15,Yes,Yes,Engineering
+Northwind Legal LLP,Employment counsel retainer,96000,2026-09-30,No,Yes,Legal
+Litware Analytics,Product analytics,54000,2026-08-31,No,No,Sales
+Proseware Recruitment,Agency fees,150000,2026-12-31,No,Yes,People
+Adventure Works Support,Tier 2 helpdesk,72000,2027-03-31,Yes,Yes,IT

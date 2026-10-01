@@ -1,0 +1,9 @@
+cost_center,owner,quarter,category,planned_usd,actual_usd,variance_pct
+CC-100,Engineering,2026-Q3,Cloud infrastructure,420000,447500,6.5
+CC-110,Engineering,2026-Q3,Tooling and licences,96000,88100,-8.2
+CC-120,Engineering,2026-Q3,Contractors,150000,192300,28.2
+CC-200,Sales,2026-Q3,Travel and events,120000,98740,-17.7
+CC-210,Sales,2026-Q3,Partner commissions,260000,271500,4.4
+CC-300,People,2026-Q3,Recruiting,85000,61200,-28.0
+CC-310,People,2026-Q3,Learning and development,40000,33500,-16.3
+CC-400,Legal,2026-Q3,Outside counsel,110000,128900,17.2

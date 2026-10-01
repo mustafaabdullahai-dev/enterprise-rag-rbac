@@ -1,0 +1,11 @@
+employee_id,name,department,title,work_email,work_phone,manager,location,start_date,band
+E1001,Amina Yusuf,Engineering,Engineering Intern,amina.yusuf@northwind.test,+1-202-555-0141,E1002,Remote,2026-01-12,B0
+E1002,Bilal Khan,Engineering,Senior Backend Engineer,bilal.khan@northwind.test,+1-202-555-0117,E1004,Berlin,2021-06-01,B3
+E1003,Chen Wei,Engineering,Platform Engineer,chen.wei@northwind.test,+1-202-555-0163,E1004,Singapore,2022-09-19,B3
+E1004,Farah Nadeem,Engineering,Director of Engineering,farah.nadeem@northwind.test,+1-202-555-0102,E2001,Berlin,2019-02-04,B5
+E1005,Sara Ahmed,People,HR Business Partner,sara.ahmed@northwind.test,+1-202-555-0188,E2002,London,2020-11-16,B4
+E1006,David Okafor,Finance,Finance Analyst,david.okafor@northwind.test,+1-202-555-0155,E2003,London,2023-03-06,B3
+E1007,Hina Saleem,Sales,Sales Manager,hina.saleem@northwind.test,+1-202-555-0172,E2004,Dubai,2021-10-04,B4
+E1008,Marcus Feld,Legal,Legal Counsel,marcus.feld@northwind.test,+1-202-555-0133,E2005,London,2018-07-23,B4
+E1009,Priya Raman,Security,Security Engineer,priya.raman@northwind.test,+1-202-555-0199,E2001,Bengaluru,2022-01-10,B3
+E1010,Tomas Alvarez,Finance,Financial Controller,tomas.alvarez@northwind.test,+1-202-555-0121,E2003,Madrid,2019-05-13,B5

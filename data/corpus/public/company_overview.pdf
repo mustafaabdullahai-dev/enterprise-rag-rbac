@@ -1,0 +1,63 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1307 >>
+stream
+BT
+/F1 11 Tf
+16 TL
+56 760 Td
+(Northwind Analytics - Company Overview) Tj T*
+() Tj T*
+(Who we are) Tj T*
+(Northwind Analytics builds decision intelligence software for mid-market) Tj T*
+(retailers. About 480 people work across Berlin, London, Dubai and Singapore,) Tj T*
+(and roughly a third of the company works remotely.) Tj T*
+() Tj T*
+(What we sell) Tj T*
+(The platform combines demand forecasting, inventory optimisation and assortment) Tj T*
+(analytics. Starter and Growth are self-service subscriptions; Enterprise) Tj T*
+(agreements are quoted annually with a services component.) Tj T*
+() Tj T*
+(How we are organised) Tj T*
+(Engineering 180 people, Sales 110, Customer Success 70, People 30, Finance 25,) Tj T*
+(Legal and Compliance 12, Operations the remainder.) Tj T*
+() Tj T*
+(Certifications and commitments) Tj T*
+(SOC 2 Type II audited annually. ISO 27001 certified. Data processing addenda are) Tj T*
+(signed with every vendor that touches customer data.) Tj T*
+() Tj T*
+(Where to find things) Tj T*
+(The employee handbook is published to all staff. Department handbooks, budgets) Tj T*
+(and legal registers are restricted to the owning team and to leadership.) Tj T*
+() Tj T*
+(Contact) Tj T*
+(General enquiries: hello@northwind.test) Tj T*
+(Security reports: security@northwind.test) Tj T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001600 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1670
+%%EOF

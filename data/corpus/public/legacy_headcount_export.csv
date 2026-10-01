@@ -1,0 +1,6 @@
+employee_id,name,work_email,mobile_phone,payroll_ref,bank_account,annual_salary_usd
+E1002,Bilal Khan,bilal.khan@northwind.test,+1-202-555-0117,PAYROLL REF PR-88213,PK36SCBL0000001123456702,112000
+E1005,Sara Ahmed,sara.ahmed@northwind.test,+1-202-555-0188,PAYROLL REF PR-88214,PK36SCBL0000001123456703,140000
+E1006,David Okafor,david.okafor@northwind.test,+1-202-555-0155,PAYROLL REF PR-88215,PK36SCBL0000001123456704,104000
+E1007,Hina Saleem,hina.saleem@northwind.test,+1-202-555-0172,PAYROLL REF PR-88216,PK36SCBL0000001123456705,140000
+E1010,Tomas Alvarez,tomas.alvarez@northwind.test,+1-202-555-0121,PAYROLL REF PR-88217,PK36SCBL0000001123456706,210000

@@ -1,0 +1,39 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# ---- Tooling caches ----
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ---- Secrets / local config ----
+.env
+.env.local
+
+# ---- Runtime state (regenerated: `enterprise-rag seed` + `enterprise-rag ingest`) ----
+# The corpus itself IS committed: it is synthetic, reviewable, and lets a clone run
+# immediately. Everything below is machine-local state.
+# Note: .gitignore has no inline comments, so keep explanations on their own lines.
+data/chroma/
+data/audit/
+data/eval_reports/
+# contains PBKDF2 password hashes for the demo directory
+data/users.json
+# derived from the corpus at ingest time
+data/catalog.json
+# cached embedding vectors for the hashing backend
+data/embedding_cache.json
+*.egg-info/
+
+# ---- OS / editors ----
+.DS_Store
+.idea/
+.vscode/
