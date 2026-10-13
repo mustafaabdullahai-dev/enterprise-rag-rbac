@@ -9,6 +9,12 @@ never has to answer:
 Every answer is authorized per user, every factual claim carries a verifiable citation, every
 refusal is explainable, and every access decision is recorded in a tamper-evident audit trail.
 
+> **All data in this repository is fictional.** Every person, company, email address
+> (`@northwind.test`, `@contoso.test` — reserved test domains), phone number
+> (`+1-202-555-01xx` — reserved fictional range), salary band and internal document in
+> `data/corpus/` was invented for this demo. Nothing here describes a real person or
+> organisation.
+
 **It runs fully offline**: no API key, no model download, no database server — deterministic
 hashing embeddings, an extractive answerer and ChromaDB on disk. Pointing it at any
 OpenAI-compatible endpoint (Groq, OpenAI, Together, vLLM, Ollama) swaps in real models without
@@ -275,7 +281,7 @@ is what the `Makefile` does.
 ```bash
 cd "/home/mustafaabdullah22002/My Projects/enterprise-rag-rbac"
 
-# 1. generate the synthetic corpus (19 documents, 6 formats)  -> data/corpus/
+# 1. generate the synthetic corpus (19 documents, 6 formats)  -> data/corpus/   # fictional data only
 .venv/bin/enterprise-rag seed
 
 # 2. classify, chunk and index them                            -> data/chroma/
