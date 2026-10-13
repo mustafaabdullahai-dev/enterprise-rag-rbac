@@ -696,3 +696,7 @@ Stated plainly, because they are design boundaries rather than oversights:
 ## License
 
 [MIT](LICENSE) © 2026 Abdullah Mustafa
+
+---
+
+#GenAIwithAM
